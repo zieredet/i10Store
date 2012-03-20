@@ -1,0 +1,32 @@
+https://github.com/zieredet/i10Store http://i10store.herokuapp.com/products
+
+
+C:\FachHochSchule\WebProgrammieren\4S\RubyWorkspace\i10Store
+
+
+-- rails web server starten ---
+
+Git Bash öffnen
+
+cd /c/Fach.../i10store
+rails server
+
+
+-- aenderungen auf heroku --
+
+git push origin master
+git push heroku master
+git add .
+git commit -m "tag name" -a
+git push origin master
+git push heroku master
+
+
+-- helpers
+
+heroku apps
+heroku info
+
+heroku logs  // zeigt logs an des heroku servers
+heroku run rake db:create
+heroku run rake db:migrate

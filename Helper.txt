@@ -30,3 +30,23 @@ heroku info
 heroku logs  // zeigt logs an des heroku servers
 heroku run rake db:create
 heroku run rake db:migrate
+
+
+
+
+--- Migration von einer DB Version zu nächsten
+
+
+rake db.migrate
+
+
+
+--- /public vs. /app/assets
+
+/public
+xy.js, bilder, ...
+werden 1:1 so ausgeliefert.
+
+/app/assets
+xy.js
+wird vor der Auslieferung kompiliert

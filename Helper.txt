@@ -11,6 +11,8 @@ Git Bash öffnen
 cd /c/Fach.../i10store
 rails server
 
+http://localhost:3000/
+
 
 -- aenderungen auf heroku --
 
